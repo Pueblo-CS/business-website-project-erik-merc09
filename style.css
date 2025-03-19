@@ -1,27 +1,42 @@
 body {
-    background-image: url("https://picsum.photos/id/81/1000/1000");
+    background-image: url(https://www.publicdomainpictures.net/pictures/10000/velka/1-122357738099Gn.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     margin: 0px
 }
+#header, .nav > a, #hero, #cta{
+    color:white
+}
 #header{
     background-color:#13293d;
-    color:white;
     height:60px
 }
-.nav > a{
-    color:white;
-    text-decoration:underline
+a {
+    text-decoration:none
+}
+
+a:hover{
+    text-decoration: underline
 }
 #hero{
     font-size:22px;
-    color:white;
 }
 #hero > h1{
     font-size:80px;
 }
 #cta{
-    background-color:#83E8BA
+    
+}
+#cta:hover{
+    background-color:white;
+    color:#83E8BA
+}
+#services{
+    background-color:#d2dfeb
+}
+.card{
+    background-color:white;
+    width:fit-content
 }
